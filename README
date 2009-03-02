@@ -1,0 +1,9 @@
+A set of commands for stopping, starting, and restarting Apache/Mongrel processes for Rails apps in Windows production environments. 
+
+Currently, this project has just begun development, and as such, has quite a long way to go!
+
+USAGE
+-----
+-- copy lib/server_commands.rake into your rails app's lib/tasks/ directory
+-- copy maintenance.html.sample (or something like it) into your rails app's lib/ directory
+-- customize away! (for starters, open up server_commands.rake and 1) change all the apache-related paths in the :apache namespace, and 2) change the names and number of mongrel services started and stopped in the :mongrel namespace) 
